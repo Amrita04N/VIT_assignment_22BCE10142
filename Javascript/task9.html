@@ -3,13 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Management</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <title>MERN Internship Tasks</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .wrapper {
+            width: 90%;
+            max-width: 800px;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        .title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        .info-section {
+            text-align: center;
+            background: #e3e7ea;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .info-section p {
+            font-size: 16px;
+            color: #333;
+            margin: 5px 0;
+        }
+        .task-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background: #e3e7ea;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .task-section h3 {
+            color: #1d3557;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #1d3557;
+            padding-bottom: 5px;
+        }
+        .task-list {
+            list-style: none;
+        }
+        .task-list li {
+            margin: 8px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        .task-list li a {
+            text-decoration: none;
+            color: #007acc;
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+            transition: color 0.3s;
+        }
+        .task-list li:hover {
+            background: #dfe6ee;
+            transform: translateY(-3px);
+        }
+        .task-list li a:hover {
+            color: #0056b3;
+        }
+    </style>
 </head>
-<body class="text-center p-5">
-    <h2>Welcome to User Management</h2>
-    <p>Use the buttons below to navigate.</p>
-    <a href="register.html" class="btn btn-primary">Register a User</a>
-    <a href="view.html" class="btn btn-success">View Registered Users</a>
+<body>
+    <div class="wrapper">
+        <div class="title">Ethnus MERN Assignment 1</div>
+ 
+        <div class="info-section">
+            <p><strong>Name:</strong> Amrita Nirbheek</p>
+            <p><strong>Registration Number:</strong> 22BCE10142</p>
+            <p><strong>Email ID:</strong> amritanirbheek2022@vitbhopal.ac.in</p>
+        </div>
+ 
+        <div class="task-section">
+            <h3>HTML</h3>
+            <ul class="task-list">
+                <li><a href="task1.html" target="_blank">Task 1</a></li>
+                <li><a href="task2.html" target="_blank">Task 2</a></li>
+                <li><a href="task3.html" target="_blank">Task 3</a></li>
+                <li><a href="task4.html" target="_blank">Task 4</a></li>
+                <li><a href="task5.html" target="_blank">Task 5</a></li>
+            </ul>
+        </div>
+ 
+        <div class="task-section">
+            <h3>CSS</h3>
+            <ul class="task-list">
+                <li><a href="./CSS-Tasks/css-task1.html" target="_blank">Task 1</a></li>
+                <li><a href="./CSS-Tasks/css-task2.html" target="_blank">Task 2</a></li>
+                <li><a href="./CSS-Tasks/css-task3.html" target="_blank">Task 3</a></li>
+                <li><a href="./CSS-Tasks/css-task4.html" target="_blank">Task 4</a></li>
+                <li><a href="./CSS-Tasks/css-task5.html" target="_blank">Task 5</a></li>
+                <li><a href="./CSS-Tasks/css-task6.html" target="_blank">Task 6</a></li>
+                <li><a href="./CSS-Tasks/css-task7.html" target="_blank">Task 7</a></li>
+            </ul>
+        </div>
+
+        <div class="task-section">
+            <h3>Bootstrap</h3>
+            <ul class="task-list">
+                <li><a href="./Bootstrap-Tasks/bs-task1.html" target="_blank">Task 1</a></li>
+                <li><a href="./Bootstrap-Tasks/bs-task2.html" target="_blank">Task 2</a></li>
+                <li><a href="./Bootstrap-Tasks/bs-task3.html" target="_blank">Task 3</a></li>
+                <li><a href="./Bootstrap-Tasks/bs-task4.html" target="_blank">Task 4</a></li>
+                <li><a href="./Bootstrap-Tasks/bs-task5.html" target="_blank">Task 5</a></li>
+                <li><a href="./Bootstrap-Tasks/bs-task6.html" target="_blank">Task 6</a></li>
+            </ul>
+        </div>
+
+
+        <div class="task-section">
+            <h3>JavaScript</h3>
+            <ul class="task-list">
+                <li><a href="./Javascript/task1.html" target="_blank">Task 1</a></li>
+                <li><a href="./Javascript/task2.html" target="_blank">Task 2</a></li>
+                <li><a href="./Javascript/task3.html" target="_blank">Task 3</a></li>
+                <li><a href="./Javascript/task4.html" target="_blank">Task 4</a></li>
+                <li><a href="./Javascript/task5.html" target="_blank">Task 5</a></li>
+                <li><a href="./Javascript/task6.html" target="_blank">Task 6</a></li>
+                <li><a href="./Javascript/task7.html" target="_blank">Task 7</a></li>
+                <li><a href="./Javascript/task8.html" target="_blank">Task 8</a></li>
+                <li><a href="./Javascript/task9.html" target="_blank">Task 9</a></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
